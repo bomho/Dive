@@ -2,8 +2,8 @@
 {Firebase} = require 'firebase'
 
 firebase = new Firebase
-	projectID: "YOUR INFO HERE"
-	secret: "YOUR INFO HERE"
+	projectID: "portfolio-3515a"
+	secret: "JhhLNRicNl3TmaKQF8bRvWrluNlcgVEGrCNVZy6L"
 
 # Creating the green button
 greenButton = new Layer
@@ -60,6 +60,6 @@ firebase.onChange "/greenButtonColor", (greenButtonColor) ->
 firebase.onChange "/redButtonColor", (redButtonColor) ->
 	redButton.backgroundColor = redButtonColor
 
-	
+
 
 	

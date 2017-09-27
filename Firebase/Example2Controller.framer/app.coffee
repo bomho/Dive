@@ -2,8 +2,8 @@
 {Firebase} = require 'firebase'
 
 firebase = new Firebase
-	projectID: "YOUR INFO HERE"
-	secret: "YOUR INFO HERE"
+	projectID: "portfolio-3515a"
+	secret: "JhhLNRicNl3TmaKQF8bRvWrluNlcgVEGrCNVZy6L"
 
 # Creating button
 triggerButton = new Layer
