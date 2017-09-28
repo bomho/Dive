@@ -78,11 +78,11 @@ btnDel.onTap ->
 	firebase.get "/gradient", (gradient) ->
 		namesArray = _.toArray(gradient) # converts JSON to array
 	# 	print name for name in namesArray
-		print namesArray
+		print namesArray, time
 
  
 # advanced data put 
 response = (confirmation) ->
 	print confirmation
 	
-firebase.put("/values", {"foo": true, "bar": false}, response)
+# firebase.put("/values", {"foo": true, "bar": false}, response)
